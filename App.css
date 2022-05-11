@@ -1,0 +1,203 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 410px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card-state{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(34, 34, 34, 0.6);
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.displayed-card{
+  background: linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%), #FFAE34;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction:column;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px;
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vendors-icone{
+  justify-items: left;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 35px;
+  text-align: left;
+
+}
+.card-number{
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-align: center;
+}
+
+.name-date-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-card-label{
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  /* text effect */
+  text-shadow: -0.5px -0.5px 0px rgba(255, 255, 255, 0.25), 0.5px 0.5px 0px rgba(255, 255, 255, 0.5);
+}
+
+.card-info p{
+  margin: 0;
+}
+
+.info-card-input{
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card-stack {
+  position: relative;
+  margin-top: 40px ;
+  margin-bottom: 40px;
+}
+
+.card-stack-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.addCard-btn{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: white;
+  height: 50px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+ 
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 410px;
+  text-align: center;
+  padding-top: 10px;
+}
+.label-form{
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 20px;
+}
+
+.input-form{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 50px;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.form-row3{
+  display: flex;
+  flex-direction: row;
+}
+
+.data-verification{
+  text-align: left;
+  padding-top: 15px;
+}
+
+.form-btn{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 50px;
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height:  22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+.addCard-btn:hover, .form-btn:hover {
+  background: hsl(0, 4%, 84%);
+  color: #ffffff;
+}
